@@ -1,0 +1,7 @@
+HTTP/1.1 201 Created
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Location: /buckets/s15252/keys/G62YWSqPDLZ362HtIOhCTu5aKiC
+Date: Tue, 15 Dec 2020 15:13:09 GMT
+Content-Type: application/json
+Content-Length: 0

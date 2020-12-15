@@ -1,0 +1,41 @@
+=================================1====================================
+curl -i -XPUT -H "Content-Type:application/json" -d '{"name": "Interstellar", "director": "Nolan" , "lenght":186 , "rating": 9.2}' http://localhost:8098/buckets/s15252/keys/Interstella
+
+curl -i -XPUT -H "Content-Type:application/json" -d '{"name": "Django", "director": "Tarantino" , "lenght"212 , "rating": 9.5}' http://localhost:8098/buckets/s15252/keys/Django
+
+curl -i -XPUT -H "Content-Type:application/json" -d '{"name": "Braveheart", "director": "Gibson" , "lenght":167 , "rating": 9.1}' http://localhost:8098/buckets/s15252/keys/Braveheart
+
+curl -i -XPUT -H "Content-Type:application/json" -d '{"name": "Joker", "director": "Philips" , "lenght":134 , "rating": 9.8}' http://localhost:8098/buckets/s15252/keys/Joker
+
+curl -i -XPUT -H "Content-Type:application/json" -d '{"name": "Kac Vegas", "director": "Philips" , "lenght":112 , "rating": 6.2}' http://localhost:8098/buckets/s15252/keys/KacVegas
+
+=================================2====================================
+curl -i http://localhost:8098/buckets/s15252/keys/Django
+
+=================================3====================================
+curl -i -XPUT -H "Content-Type:application/json" -d '{"name": "Joker", "director":"Philips", "lenght": 134, "rating": 9.8, "release": "2019-Oct-19"}' http://localhost:8098/buckets/s15252/keys/Joker
+curl -i http://localhost:8098/buckets/s15252/keys/Joker
+
+=================================4====================================
+curl -i -XPUT -H "Content-Type:application/json" -d '{"name": "Joker", "director":"Philips", "rating": 9.8, "release": "2019-Oct-19"}' http://localhost:8098/buckets/s15252/keys/Joker
+curl -i http://localhost:8098/buckets/s15252/keys/Joker
+
+=================================5====================================
+curl -i -XPUT -H "Content-Type:application/json" -d '{"name": "Joker", "director":"Todd Philips", "rating": 9.8, "release": "2019-Oct-19"}' http://localhost:8098/buckets/s15252/keys/Joker
+curl -i http://localhost:8098/buckets/s15252/keys/Joker
+
+=================================6====================================
+curl -i -XDELETE http://localhost:8098/buckets/s15252/keys/KacVegas]
+
+=================================7====================================
+curl -i http://localhost:8098/buckets/s15252/keys/KacVegas
+
+=================================8====================================
+curl -i -XPOST -H "Content-Type:application/json" -d '{"name": "Austin Powers"}' http://localhost:8098/buckets/s15252/keys
+
+=================================9====================================
+curl -i http://localhost:8098/buckets/s15252/keys/G62YWSqPDLZ362HtIOhCTu5aKiC
+
+=================================10====================================
+curl -i -XDELETE http://localhost:8098/buckets/s15252/keys/G62YWSqPDLZ362HtIOhCTu5aKiC
+curl -i http://localhost:8098/buckets/s15252/keys/G62YWSqPDLZ362HtIOhCTu5aKiC

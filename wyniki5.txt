@@ -1,0 +1,18 @@
+HTTP/1.1 204 No Content
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Date: Tue, 15 Dec 2020 15:02:54 GMT
+Content-Type: application/json
+Content-Length: 0
+
+
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8+xkWvtfkUF0JZDNlMCWy5LEyyPn43uTLAgA=
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s15252>; rel="up"
+Last-Modified: Tue, 15 Dec 2020 15:02:54 GMT
+ETag: "6cwnLGnU0qVPTC65pHJQ5q"
+Date: Tue, 15 Dec 2020 15:03:00 GMT
+Content-Type: application/json
+Content-Length: 85

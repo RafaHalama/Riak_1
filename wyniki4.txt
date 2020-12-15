@@ -1,0 +1,19 @@
+HTTP/1.1 204 No Content
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Date: Tue, 15 Dec 2020 15:01:29 GMT
+Content-Type: application/json
+Content-Length: 0
+
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8+xkWvtfkUF0JZDNlMCUy57EynPT2vcmXBQA=
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s15252>; rel="up"
+Last-Modified: Tue, 15 Dec 2020 15:01:29 GMT
+ETag: "2bliBrOgmKNM7qX2y291Ri"
+Date: Tue, 15 Dec 2020 15:01:35 GMT
+Content-Type: application/json
+Content-Length: 80
+
+{"name": "Joker", "director":"Philips", "rating": 9.8, "release": "2019-Oct-19"}

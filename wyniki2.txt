@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8+xkWvtdkv3scIpTImMfK0ODhe5MvCwA=
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s15252>; rel="up"
+Last-Modified: Tue, 15 Dec 2020 14:47:28 GMT
+ETag: "459x2nkPAJejP0wcAEeQO9"
+Date: Tue, 15 Dec 2020 14:54:28 GMT
+Content-Type: application/json
+Content-Length: 73
+
+{"name": "Django", "director": "Tarantino" , "lenght"212 , "rating": 9.5}
